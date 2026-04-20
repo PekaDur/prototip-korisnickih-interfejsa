@@ -1,0 +1,20 @@
+{
+    "name": "Alice Brown",
+    "sku": "54321",
+    "price": 199.95,
+    "shipTo": {
+        "name": "Bob Brown",
+        "adress": "456 Oak Lane",
+        "city": "Pretendville",
+        "state": "Hi",
+        "zip": "98999"
+
+    },
+    "billTo": {
+        "name": "Alice Brown",
+        "adress": "456 Oak Lane",
+        "city": "Pretendville",
+        "state": "Hi",
+        "zip": "98999"
+        }
+}
