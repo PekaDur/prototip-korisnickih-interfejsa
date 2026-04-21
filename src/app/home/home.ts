@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import axios from "axios";
 
 @Component({
@@ -12,6 +12,6 @@ export class Home {
 
   constructor() {
     axios.get('./data.json')
-    .then(rsp => this.webData.set(JSON.stringify(rsp.data)))
+      .then(rsp => this.webData.set(JSON.stringify(rsp.data)))
   }
 }
